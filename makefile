@@ -4,7 +4,7 @@ BUILDDIR := build
 BUILDDIR_DEBUG := build_debug
 TARGETDIR := bin
 TARGET := bin/afines
-
+BOOST_ROOT = /usr/local/Cellar/boost/1.69.0/lib
 #  
 
 SRCEXT := cpp
