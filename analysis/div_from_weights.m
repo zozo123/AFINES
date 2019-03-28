@@ -4,7 +4,7 @@
 
 
 dir=$ScriptCommandLine[[2]];
-Import["~/Code/cytomod/analysis/cytomod_functions.m"];
+Import["/Users/yossi/repos/AFINES/analysis/cytomod_functions.m"];
 fov=If[Length[$ScriptCommandLine]>2,ToExpression/@{$ScriptCommandLine[[3]],$ScriptCommandLine[[4]]},{50,50}];
 dr=If[Length[$ScriptCommandLine]>4,ToExpression[$ScriptCommandLine[[5]]],1];
 dt=If[Length[$ScriptCommandLine]>5,ToExpression[$ScriptCommandLine[[6]]],10];

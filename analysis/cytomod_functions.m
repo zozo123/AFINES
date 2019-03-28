@@ -4,7 +4,7 @@
 (*Common Directories*)
 
 
-outdir="/project/weare-dinner/simonfreedman/cytomod/out";
+outdir="/Users/yossi/repos/AFINES/out";
 
 
 (* ::Subsection:: *)
